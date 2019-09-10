@@ -11,10 +11,6 @@ matrix:
       python: '2.7'
       script: tox -e py27
 
-    - name: Python 3.5 tests
-      python: '3.5'
-      script: tox -e py35
-
     - name: Python 3.6 tests
       python: '3.6'
       script: tox -e py36
