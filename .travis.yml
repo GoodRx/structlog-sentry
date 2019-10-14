@@ -7,9 +7,9 @@ install: pip install -U pip tox
 matrix:
   fast_finish: true
   include:
-    - name: Python 3.5 tests
-      python: '3.5'
-      script: tox -e py35
+    - name: Python 2.7 tests
+      python: '2.7'
+      script: tox -e py27
 
     - name: Python 3.6 tests
       python: '3.6'
